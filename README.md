@@ -1,12 +1,16 @@
 ## Project Name 
 Fundamental matrix estimation using the normalized 8-point algorithm and RANSAC. 
 
+<p align="center">
 <img src="readme_imgs/example_epipolar lines.png" width="500"/>
+</p>
 
 ## Summary
 Using the normalized 8-point algorithm and RANSAC, estimated the fundamental matrix and plotted the epipolar lines. The outputs may vary for different RANSAC runs. The details on the theory is provided below. 
 
+<p align="center">
 <img src="readme_imgs/the_normalized_8-point_algorithm_for_F.png" width="500"/>
+</p>
 
 ## How to run
 In the command line, run 
@@ -19,9 +23,9 @@ and the SIFT matches and the epipolar lines will be plotted. The images are name
 
 ### Deriving the Camera Intrinsic Matrix $K$  
 
-<figure>
+<p align="center">
 <img src="readme_imgs/pinhole_model.png" width="500"/>
-</figure> 
+</p>
 
 Consider a point $P_w$ in the world coordinate system (i.e. distinct from the camera coordinate system). Let's first find the coordinate of $P_w$ with respect to the camera's 3D coordinate system. We will call $P_w$ in the camera coordinate system $P_c$. 
 
@@ -178,8 +182,9 @@ and $P = [R\, t]$ is called the camera matrix.
 
 ### The Fundamental Matrix $F$
 
+<p align="center">
 <img src="readme_imgs/epipolar_geometry.png" width="500"/>
-
+</p>
 
 Consider a 3D point $p$ that is viewed from two cameras $c_0$ and $c_1$ where the coordinate system of $c_0$ coinsides with that of $c_1$ by a 3D rotation $R$ and translation $t$. 
 
