@@ -177,9 +177,9 @@ $$
 and $P = [R\, t]$ is called the camera matrix. 
 
 ### The Fundamental Matrix $F$
-<figure>
-<img src="readme_imgs/epipolar_geometry.png" width="400"/>
-</figure> 
+
+<img src="readme_imgs/epipolar_geometry.png" width="500"/>
+
 
 Consider a 3D point $p$ that is viewed from two cameras $c_0$ and $c_1$ where the coordinate system of $c_0$ coinsides with that of $c_1$ by a 3D rotation $R$ and translation $t$. 
 
